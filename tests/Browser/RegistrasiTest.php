@@ -18,9 +18,9 @@ class RegistrasiTest extends DuskTestCase
         $this->browse(function (Browser $browser) {
             $browser->visit('/register')
                     ->type('name', 'ryannisa')
-                    ->type('email', 'ryry1223@gmail.com')
-                    ->type('password', '1239287')
-                    ->type('password_confirmation', '1239287')
+                    ->type('email', 'ryzisz28@gmail.com')
+                    ->type('password', '12101287')
+                    ->type('password_confirmation', '12101287')
                     ->press('REGISTER')
                     ->assertPathIs('/dashboard');
         });
